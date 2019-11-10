@@ -10,6 +10,7 @@ convert(){
 path=stralande_jul
 cd $path
 lilypond $path.ly
+convert $path
 convert $path -Bass
 convert $path -Tenor
 convert $path -Alt
