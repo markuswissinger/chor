@@ -3,7 +3,7 @@ convert(){
 	local path=$1
 	local suffix=$2
 	
-	timidity -Ow -o - $path$suffix.midi | lame - -b 8 $path$suffix.mp3
+	timidity -Ow -o - $path$suffix.midi | lame - -b 16 $path$suffix.mp3
 }
 
 
